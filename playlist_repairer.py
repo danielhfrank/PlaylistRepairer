@@ -41,5 +41,5 @@ f2.close()
 print rawk
 
 #finally, trash that original m3u file
-os.system("rm -f " + m3u)
+os.remove(m3u)
 	
